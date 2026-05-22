@@ -577,7 +577,7 @@
         const ArquitecturaTalento = () => {
           const itemsReto1 = [
             { title: "Murallas Chinas", desc: "Análisis exhaustivo para asegurar un proceso adecuado y eficaz, cumpliendo la norma para vender los productos." },
-            { title: "Respeto a Normativas", desc: "Cumplimiento estricto en protección de datos, calidad de asesoría y límites operativos del uso de red." },
+            { title: "Respeto a Normativas", desc: "Cumplimiento estricto en protección de datos, calidad de la prestación del servicio y límites operativos del uso de red." },
             { title: "Reorganización de Mesas", desc: "Las mesas de gestión de Corredores y Fiduciaria se unificaron a través de directrices comunes (un mismo jefe en Banco), con unificación de Comités de inversión y portafolios" },
             { title: "Sinergia: Vehículos Delegados", desc: "Unificación de las directrices de administración de productos, negocios y producto que administran en Corredores y Fiduciaria." }
           ];
@@ -690,55 +690,54 @@
           );
         }
 
-        const Optimizacion = () => (
-  <section id="optimizacion" className="py-32 bg-white/40 backdrop-blur-sm border-t border-red-50 relative print-avoid-break">
-    <div className="max-w-[1600px] w-[95%] mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-[#1F2937] mb-8">Optimización Clientes y Producto</h2>
-      <p className="text-2xl lg:text-3xl text-gray-600 max-w-5xl mx-auto mb-20 leading-relaxed">
-        El área de producto se centralizó de manera transversal a las 3 compañías para los mercados financieros.
-      </p>
+       const Optimizacion = () => (
+          <section id="optimizacion" className="py-32 bg-white/40 backdrop-blur-sm border-t border-red-50 relative print-avoid-break">
+            <div className="max-w-[1600px] w-[95%] mx-auto px-4 sm:px-6 lg:px-8 text-center">
+              <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-[#1F2937] mb-8">Optimización Clientes y Producto</h2>
+              <p className="text-2xl lg:text-3xl text-gray-600 max-w-5xl mx-auto mb-20 leading-relaxed">
+                El área de producto se centralizó de manera transversal a las 3 compañías para los mercados financieros.
+              </p>
 
-      {/* Reorganización a una cuadrícula equilibrada de 2x2 en pantallas grandes */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12 relative z-10 max-w-6xl mx-auto">
-        
-        {/* Cuadro 1: Canales */}
-        <div className="bg-white p-12 rounded-3xl shadow-sm border border-gray-100 transform hover:-translate-y-2 transition duration-300 hover:border-[#E01E26] flex flex-col justify-center print-avoid-break">
-          <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-[#1F2937]">Canales</h3>
-          <p className="text-gray-600 text-xl leading-relaxed">Integración de la experiencia digital y física bajo una sola directriz.</p>
-        </div>
+              {/* Cuadrícula equilibrada de 2x2 en pantallas grandes */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-12 relative z-10 max-w-6xl mx-auto">
+                
+                {/* Cuadro 1: Canales */}
+                <div className="bg-white p-12 rounded-3xl shadow-sm border border-gray-100 transform hover:-translate-y-2 transition duration-300 hover:border-[#E01E26] flex flex-col justify-center print-avoid-break">
+                  <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-[#1F2937]">Canales</h3>
+                  <p className="text-gray-600 text-xl leading-relaxed">Integración de la experiencia digital y física bajo una sola directriz.</p>
+                </div>
 
-        {/* Cuadro 2: Área Centralizada (Destacado en Rojo Corporativo) */}
-        <div className="bg-[#E01E26] text-white p-12 rounded-3xl shadow-xl transform hover:-translate-y-2 transition duration-300 z-20 flex flex-col justify-center print-avoid-break">
-          <h3 className="text-3xl lg:text-4xl font-bold mb-6">Área Centralizada</h3>
-          <p className="text-red-50 text-xl leading-relaxed">La efficiency asegura que las ofertas se complementen: a quién se otorga, beneficios y asesoría.</p>
-        </div>
+                {/* Cuadro 2: Área Centralizada (Rojo Corporativo) */}
+                <div className="bg-[#E01E26] text-white p-12 rounded-3xl shadow-xl transform hover:-translate-y-2 transition duration-300 z-20 flex flex-col justify-center print-avoid-break">
+                  <h3 className="text-3xl lg:text-4xl font-bold mb-6">Área Centralizada</h3>
+                  <p className="text-red-50 text-xl leading-relaxed">La eficiencia asegura que las ofertas se complementen: a quién se otorga, beneficios y asesoría.</p>
+                </div>
 
-        {/* NUEVO Cuadro 3: Unificación */}
-        <div className="bg-white p-12 rounded-3xl shadow-sm border border-gray-100 transform hover:-translate-y-2 transition duration-300 hover:border-[#E01E26] flex flex-col justify-center print-avoid-break">
-          <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-[#1F2937]">Unificación</h3>
-          <p className="text-gray-600 text-xl leading-relaxed">Garantiza políticas comunes, directrices unificadas y una alineación completa de la estrategia de gestión, distribución y administración de los productos.</p>
-        </div>
+                {/* Cuadro 3: Unificación (Actualizado: Ahora igual a Área Centralizada) */}
+                <div className="bg-[#E01E26] text-white p-12 rounded-3xl shadow-xl transform hover:-translate-y-2 transition duration-300 z-20 flex flex-col justify-center print-avoid-break">
+                  <h3 className="text-3xl lg:text-4xl font-bold mb-6">Unificación</h3>
+                  <p className="text-red-50 text-xl leading-relaxed">Garantiza políticas comunes, directrices unificadas y una alineación completa de la estrategia de gestión, distribución y administración de los productos.</p>
+                </div>
 
-        {/* Cuadro 4: Construcción */}
-        <div className="bg-white p-12 rounded-3xl shadow-sm border border-gray-100 transform hover:-translate-y-2 transition duration-300 hover:border-[#E01E26] flex flex-col justify-center print-avoid-break">
-          <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-[#1F2937]">Construcción</h3>
-          <p className="text-gray-600 text-xl leading-relaxed">Creación de productos y mercadeo unificado para todo el ecosistema de valores.</p>
-        </div>
+                {/* Cuadro 4: Construcción */}
+                <div className="bg-white p-12 rounded-3xl shadow-sm border border-gray-100 transform hover:-translate-y-2 transition duration-300 hover:border-[#E01E26] flex flex-col justify-center print-avoid-break">
+                  <h3 className="text-3xl lg:text-4xl font-bold mb-6 text-[#1F2937]">Construcción</h3>
+                  <p className="text-gray-600 text-xl leading-relaxed">Creación de productos y mercadeo unificado para todo el ecosistema de valores.</p>
+                </div>
 
-      </div>
+              </div>
 
-      <div className="mt-32 max-w-6xl mx-auto bg-white p-16 lg:p-20 rounded-[3rem] shadow-xl border border-gray-100 relative print-avoid-break">
-        <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-[#E01E26] text-white px-10 py-3 rounded-full font-bold shadow-md tracking-widest uppercase text-lg">
-          Nuestra Promesa
-        </div>
-        <h2 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#1F2937] leading-tight">
-          Siempre <span className="text-[#E01E26]">EN BUSCA DE LO MEJOR</span> para el Cliente financiero.
-        </h2>
-      </div>
-    </div>
-  </section>
-);
-
+              <div className="mt-32 max-w-6xl mx-auto bg-white p-16 lg:p-20 rounded-[3rem] shadow-xl border border-gray-100 relative print-avoid-break">
+                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-[#E01E26] text-white px-10 py-3 rounded-full font-bold shadow-md tracking-widest uppercase text-lg">
+                  Nuestra Promesa
+                </div>
+                <h2 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#1F2937] leading-tight">
+                  Siempre <span className="text-[#E01E26]">EN BUSCA DE LO MEJOR</span> para el Cliente financiero.
+                </h2>
+              </div>
+            </div>
+          </section>
+        );
         /* El reto interactivo lleva "print:hidden" para que no salga truncado en el PDF */
         const RetoInteractivo = () => {
           const [currentQuestion, setCurrentQuestion] = useState(0);
